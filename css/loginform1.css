@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
+.login-box {
+    width: 600px;
+    padding: 30px;
+    margin: 100px auto;
+    background-color: blue;
+}
+.cart-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    /* background-color: blue; */
+}
+.logo {
+    width: 15%;
+    /* background-color: black; */
+}
+.logo img { 
+    display: block;
+    width: 100%;
+}
+.form_wrap{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    /* background-color: red; */
+}
+.form_wrap input{
+    padding: 10px;
+}
+.login-btn {
+    padding: 10px;
+    background-color: white;
+    color: blue;
+    font-weight: bold;
+}
+.forgot {
+  text-align: right;
+  font-size: 14px;
+  color: white;
+  margin-top: 5px;
+}

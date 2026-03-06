@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.login-box {
+  width: 300px;
+  padding: 10px;
+  margin: 100px auto;
+  background-color: burlywood;
+}
+.loginFom-text {
+  text-align: center;
+  color: orange;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.form-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 15px;
+}
+.form-wrap input {
+  padding: 10px;
+  width: 100%; /* 입력 필드 전체 너비를 사용 */
+}
+.login-btn {
+  padding: 10px;
+  background-color: orange;
+  color: black;
+  font-weight: bold;
+  margin: 0 auto; /* 중앙 정렬을 위한 마진 */
+  width: 100%; /* 버튼 전체 너비를 사용 */
+}
+
+.social-wrap {
+  display: flex; /* 1. 자식들을 가로로 나열해라! */
+  justify-content: center; /* 2. 가로 방향 중앙에 모아라! */
+  gap: 10px; /* 3. 버튼 사이의 간격을 줘라! */
+  margin-top: 15px; /* 위쪽 요소(or)와의 간격 */
+}
+
+.login-facebook,
+.login-twitter {
+  /* 기존 설정 유지하되, width를 100px로 고정하면 글자가 넘칠 수 있으니 유연하게 조절 */
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: white;
+  font-size: 11px; /* 버튼이 작으니 글씨도 살짝 줄여주세요 */
+  cursor: pointer;
+  text-align: center;
+  flex: 1; /* 두 버튼이 똑같은 너비를 나눠 갖게 함 */
+}
+
+/* 각각의 배경색 */
+.login-facebook {
+  background-color: #3b5998;
+}
+.login-twitter {
+  background-color: #55acee;
+}
+.footer-links {
+  display: flex; /* 자식들을 가로로 나열 */
+  justify-content: center; /* 가로축 기준 중앙 정렬 */
+  align-items: center; /* 세로축 기준 중앙 정렬 */
+  gap: 10px; /* 글자와 선 사이의 간격 */
+  margin-top: 20px; /* 위쪽 요소와의 간격 */
+  color: #888; /* 글자 색상을 약간 흐리게 (이미지 느낌) */
+  font-size: 13px; /* 글자 크기 조절 */
+}
+
+/* p태그 기본 마진 제거 (정렬을 방해할 수 있음) */
+.footer-links p {
+  margin: 0;
+}
+.social-wrap {
+  display: flex; /* 1. 자식들을 가로로 나열해라! */
+  justify-content: center; /* 2. 가로 방향 중앙에 모아라! */
+  gap: 10px; /* 3. 버튼 사이의 간격을 줘라! */
+  margin-top: 15px; /* 위쪽 요소(or)와의 간격 */
+}
+
+.login-facebook,
+.login-twitter {
+  /* 기존 설정 유지하되, width를 100px로 고정하면 글자가 넘칠 수 있으니 유연하게 조절 */
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: white;
+  font-size: 11px; /* 버튼이 작으니 글씨도 살짝 줄여주세요 */
+  cursor: pointer;
+  text-align: center;
+  flex: 1; /* 두 버튼이 똑같은 너비를 나눠 갖게 함 */
+}
+
+/* 각각의 배경색 */
+.login-facebook {
+  background-color: #3b5998;
+}
+.login-twitter {
+  background-color: #55acee;
+}
+.or-divider{
+    text-align: center;
+    padding: 8px 12px;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
